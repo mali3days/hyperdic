@@ -1,0 +1,2 @@
+# hyperdic
+hyper dictionary application
