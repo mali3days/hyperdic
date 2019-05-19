@@ -1,3 +1,7 @@
+#source folder with the data for the course
+# TODO: remove later
+source
+
 # Miscellaneous
 *.class
 *.log
