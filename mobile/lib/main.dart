@@ -7,10 +7,15 @@ void main() => runApp(Hyperdic());
 class Hyperdic extends StatelessWidget {
   @override
   Widget build(BuildContext context) => (MaterialApp(
+        theme: ThemeData(
+          primarySwatch: Colors.green,
+          accentColor: Colors.lightBlue,
+          brightness: Brightness.light,
+        ), 
         home: Scaffold(
             appBar: AppBar(
               title: Text('Hyperdic'),
             ),
-            body: ProductManager('Food Tester!')),
+            body: ProductManager(startingProduct: 'Food Tester!')),
       ));
 }
